@@ -1,0 +1,49 @@
+html {
+  font-size: 16px;
+}
+
+body {
+}
+
+.content {
+  margin: auto;
+  max-width: 960px;
+  padding: 1rem;
+}
+
+header {
+	margin-bottom: 0.5rem;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.info, .all-stations, #favorite-stations-list  {
+  font-size: 1.2rem;
+}
+
+.info {
+	color: red;
+}
+
+#favorite-stations-list {
+  margin: 2rem;
+}
+
+.all-stations {
+  margin-top: 37px;
+}
+
+#favorite-stations, #stations {
+	float: left;
+	width: 50%;
+}
+
+.station {
+	margin: 1rem;
+	border: 1px solid black;
+  padding: 2rem;
+}
+
+.station-channel-title, .info {
+	padding: 0.5rem;
+}
