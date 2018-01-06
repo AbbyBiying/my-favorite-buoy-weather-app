@@ -17,12 +17,12 @@ RSpec.feature "get buoys", :type => :feature do
     stub_ndbc_rss
     visit '/'
     
-	expect(page).to have_content('Welcome to My Favorite Buoy Weather App!')
+    expect(page).to have_content('Welcome to My Favorite Buoy Weather App!')
     expect(page).to have_content('Station ID: 44025')
     expect(page).to have_content('Station ID: KPTN6')
     expect(page).to have_content('Station ID: BRHC3')
-	end
- 
+  end
+
   scenario "user can check the checkbox", js: true do
     stub_ndbc_rss
     visit '/'
@@ -31,7 +31,7 @@ RSpec.feature "get buoys", :type => :feature do
     check('Station ID: ROBN4')
  
     expect(page).to have_content('Location: 40.657N 74.065W or 63 nautical miles NW of search location of 40N 73W.')
-	end
+  end
  
   scenario "user can uncheck the checkbox", js: true do 
     stub_ndbc_rss

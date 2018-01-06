@@ -10,7 +10,7 @@ gem 'selenium-webdriver'
 gem 'geckodriver-helper'
 
 group :development, :test do
-	gem 'pry'
+  gem 'pry'
 end
 
 group :test do

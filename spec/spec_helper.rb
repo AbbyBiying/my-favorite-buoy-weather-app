@@ -16,7 +16,7 @@ module RSpecMixin
 end
 
 RSpec.configure do |config|
-	config.include TestHelpers
-	config.include RSpecMixin
-	Capybara.app = Sinatra::Application
+  config.include TestHelpers
+  config.include RSpecMixin
+  Capybara.app = Sinatra::Application
 end

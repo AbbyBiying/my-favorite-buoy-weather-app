@@ -12,7 +12,7 @@ body {
 }
 
 header {
-	margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
   font-size: 1.2em;
   text-align: center;
 }
@@ -22,7 +22,7 @@ header {
 }
 
 .info {
-	color: red;
+  color: red;
 }
 
 #favorite-stations-list {
@@ -34,16 +34,16 @@ header {
 }
 
 #favorite-stations, #stations {
-	float: left;
-	width: 50%;
+  float: left;
+  width: 50%;
 }
 
 .station {
-	margin: 1rem;
-	border: 1px solid black;
+  margin: 1rem;
+  border: 1px solid black;
   padding: 2rem;
 }
 
 .station-channel-title, .info {
-	padding: 0.5rem;
+  padding: 0.5rem;
 }
