@@ -11,7 +11,7 @@
       <% @station_observation.stations_hash.each do |key, value| %>
         <div class="checkbox-container">
           <input type="checkbox" id="station-checkbox-<%= key %>" class="station-checkbox" name="<%= key %>" value="<%= key %>">
-          <label for="station-checkbox-<%= key %>">Station ID: <%= key %></label>
+          <label for="station-checkbox-<%= key %>"><%= value.title %></label>
          </div>
       <% end %>
     </form>

@@ -14,6 +14,8 @@ get "/" do
 end
 
 post "/" do
+  # Here the server receives favorites where we can extend the app with future features.
+  # For now, simply return favorites back to the client.
   result = { result: params.keys }
   json result
 end
@@ -40,6 +42,7 @@ class StationObservation
 
     feed.items.each do |item|
       station_id = item.title[/(?<=Station )\w*/]
+
       # set stations hash key as station id, value as item
       @stations_hash[station_id] = item
     end
