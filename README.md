@@ -1,7 +1,9 @@
 # my-favorite-buoy-weather-app
  
 This is a simple Sinatra web app to demo NDBC API.
-You can demo this application on [Heroku](https://my-favorite-buoy-weather-app.herokuapp.com/)
+
+You can demo this application on 
+[AWS Elastic Beanstalk](http://my-favorite-buoy-weather-app-dev.us-west-1.elasticbeanstalk.com/) or [Heroku](https://my-favorite-buoy-weather-app.herokuapp.com/)
 
 ## Implementation
  
